@@ -1,8 +1,6 @@
 HELP.md
 .gradle
 build/
-logs/
-/uploads/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
@@ -38,10 +36,5 @@ out/
 ### VS Code ###
 .vscode/
 
-# H2 database files
-/demoDb*
-
-.DS_Store
-# Logs
-logs/**
-*.log
+### Kotlin ###
+.kotlin
